@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noticeNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject:  "
+        android:ellipsize="end"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/noticeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notice: "
+        android:ellipsize="end"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textColor="#000000"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

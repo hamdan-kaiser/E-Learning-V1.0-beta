@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "456615678043",
+    "firebase_url": "https://e-learning-28611.firebaseio.com",
+    "project_id": "e-learning-28611",
+    "storage_bucket": "e-learning-28611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456615678043:android:a9ceea940cd1b62f",
+        "android_client_info": {
+          "package_name": "com.hamdan.virus.e_learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456615678043-4ho0pm5dr5vl670vk8vjcraq0gm01g4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hamdan.virus.e_learning",
+            "certificate_hash": "84736d821dcdd4a15881c6bce9a8212f4bbfcaa3"
+          }
+        },
+        {
+          "client_id": "456615678043-c7i09fnagdearvn5d8i9g51i976d4ovu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPpY98jYj9vCSj7dNg1ACZK-sN_KiEb1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456615678043-c7i09fnagdearvn5d8i9g51i976d4ovu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

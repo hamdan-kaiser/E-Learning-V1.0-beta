@@ -1,0 +1,13 @@
+#Fri Oct 12 13:01:07 BDT 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.2=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.1=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.0=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15

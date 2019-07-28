@@ -1,0 +1,7 @@
+#Fri Oct 12 11:40:13 BDT 2018
+base.0=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=G\:\\ELearning\\ELearning2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11

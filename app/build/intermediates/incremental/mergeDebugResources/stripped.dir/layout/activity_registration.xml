@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "@drawable/background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Sign Up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/usernameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/capsule"
+            android:maxLines="1"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/emailText"
+            android:background="@drawable/capsule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/usernameText"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Valid Email "
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:padding="12dp"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsule"
+            android:layout_below="@id/emailText"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp">
+
+            <TextView
+                android:id="@+id/occuText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Occupation"
+                android:textSize="20sp"
+                android:padding="12dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <RadioGroup
+                android:id="@+id/occupationGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/occuText"
+                android:layout_marginBottom="12dp">
+
+                <RadioButton
+                    android:id="@+id/teacherOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="Teacher"
+                    android:textSize="18sp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"/>
+
+                <RadioButton
+                    android:id="@+id/studentOption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="Student"
+                    android:textSize="18sp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp" />
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:background="@drawable/capsule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/relativeLayout"
+            android:maxLines="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:hint="Password(at least 6 Characters)"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/conpassText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/capsule"
+            android:maxLines="1"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:padding="12dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/conpassText"
+            android:textSize="18sp"
+            android:textColor="@color/calendar_highlighted_day_bg"
+            android:text="I accept the privacy policy" />
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/checkBox"
+            android:background="@color/colorPrimary"
+            android:text="Subscribe
+"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <!--<TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/signupButton"
+            android:text="Already have an account? Log in "
+            android:textColor="@color/calendar_highlighted_day_bg"
+            android:textSize="20sp" />-->
+
+    </RelativeLayout>
+</ScrollView>

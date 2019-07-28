@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: me.biubiubiu.justifytext:library:1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.aar/8d7d0e2b689bbf79e1bceedc4664b4e5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.1.aar/8d7d0e2b689bbf79e1bceedc4664b4e5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.biubiubiu.justifytext/library/1.1/ff97291115dabdb35635e5d342d8f5fe6bdf2254/library-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

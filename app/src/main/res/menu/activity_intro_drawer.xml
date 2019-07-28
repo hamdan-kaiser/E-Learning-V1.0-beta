@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logIn"
+            android:icon="@drawable/ic_sign_in"
+            android:title="Login" />
+        <item
+            android:id="@+id/registration"
+            android:icon="@drawable/ic_registration"
+            android:title="Registration" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_category"
+            android:title="Categories" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/ic_faqs"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/tpublic"
+            android:icon="@drawable/ic_public"
+            android:title="Public Accounts"
+            />
+    </group>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.teacher.AddNoticeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notice"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/noticeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="16dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/text_back_box"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:fontFamily="monospace"
+            android:padding="8dp"
+            android:hint="Write your notice here"/>
+
+        <Button
+            android:id="@+id/publishBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noticeText"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true"
+            android:text="Publish"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:background="@color/colorPrimary"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+</ScrollView>

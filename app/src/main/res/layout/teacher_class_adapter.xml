@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/eventNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class: "
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/eventMsgText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message: "
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:layout_below="@+id/eventNameText"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            android:maxLines="1"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/eventTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:textSize="16sp"
+            android:textColor="#7b0101"
+            android:fontFamily="monospace"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textStyle="bold"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/eventDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eventTimeText"
+            android:textColor="#7b0101"
+            android:paddingStart="4dp"
+            android:textSize="16sp"
+            android:fontFamily="monospace"
+            android:gravity="end"
+            android:paddingEnd="4dp"
+            android:paddingBottom="4dp"
+            android:maxLines="1"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

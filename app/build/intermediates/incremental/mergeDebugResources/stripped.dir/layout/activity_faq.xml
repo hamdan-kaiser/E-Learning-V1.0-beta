@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".other.faq">
+
+    <TextView
+        android:id="@+id/root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FAQ's"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/root"
+        android:text="1. Why should we use this app?"/>
+
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q1"
+        android:textSize="20dp"
+        android:text="-> Many of families in our country can't provide enough tution expenses. This is a simple educational application that helps them specially providing educational materials FREE. Moreover they will be able to take advantages of tutorial support. Easy to use,free for everyone"/>
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a1"
+        android:textSize="20dp"
+        android:text="2. How to Sign in?"
+        />
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/q2"
+        android:text="-> To Sign in in your own account, just click the navigation bar on the top-left side from the welcome screen, hence you get login option, you're good to go login in your own account."/>
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a2"
+        android:textSize="20dp"
+        android:text="3. Is it useful only for school/college students?"
+        />
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q3"
+        android:textSize="20dp"
+        android:text="-> Every people worldwide can use this app, being teacher/student is less requied, even coaching center(s), private tutors are good to go with this application as well."
+        />
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a3"
+        android:textSize="20dp"
+        android:text="4. What if the leaning materials are non-academic?"
+        />
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q4"
+        android:textSize="20dp"
+        android:text="Each of your posts will be under surveillance by our team. Any irrelevant/ non-educational topic will be removed immediately(if occurs)"
+        />
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/a4"
+        android:textSize="20dp"
+        android:text="5. How to use this app?"
+        />
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q5"
+        android:textSize="20dp"
+        android:text="-> To use this app, just sign up, if you choose occupation as 'Student', you'll be enrolled as student, or else, teacher"
+        />
+</RelativeLayout>
+</ScrollView>

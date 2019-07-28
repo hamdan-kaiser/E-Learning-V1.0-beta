@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.teacher.AddNewClassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Name:  "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/eventNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/text1"
+                android:layout_marginStart="8dp"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Notice: "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/eventMessageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:layout_toEndOf="@+id/text4"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:padding="8dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/dateLayout">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Date:     "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/eventDateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Date"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="monospace"
+                android:layout_toEndOf="@+id/text2"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/timeLayout">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Time:     "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/eventTimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Time"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:layout_toEndOf="@+id/text3"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

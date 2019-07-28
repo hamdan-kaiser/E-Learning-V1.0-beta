@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+    <string name="introText">The digital classroom (see also E-Learning, blended learning and smart classroom)
+        refers to the "Technology-enabled" classroom where student learning and interaction with the instructor
+        and peers is fully supported through strategic use of information and communication technologies (ICTs).
+        As these terms are not well-defined, they are used inaccurately so be aware. The E-Learning, for its part,
+        is defined as a learning model where students receive instruction online but critique and apply their
+        newly-acquired knowledge in the classroom with their peers. In that sense, the E-Learning is inherently
+        social but also efficient. Blended learning is a combination of elements of face-to-face instruction and
+        online instruction; online instruction may be provided by using social media, online learning platforms,
+        systems and tools; students work together under the guidance of instructors to apply their new knowledge
+        to complex problems.\n\nIn education from K-12 and in the post-secondary years, the digital classroom has come
+        to mean a wide range of initiatives and processes, and may include digital tools and gadgets as a part of
+        the learning space or environment. This space may or may not include digital archives and repositories,
+        remote access to information and communications technologies (ICTs) and access to infrastructure, improved
+        access to education, buildings to accommodate alternative or contested perspectives, peer knowledge
+        communities and knowledge production, and non-canonical material and experiences into formal institutions of education.
+        The digital classroom is often thought to be a virtualization of classrooms where virtual and immersive
+        tools are part of learning structure and the methods associated with learning. This is not necessarily the case,
+        as it depends on the authors and educators who form their own definition of the term.\n\n</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_student">Home</string>
+    <string name="title_activity_teacher_list">TeacherListActivity</string>
+    <string name="title_activity_home_teacher_activuty">Home</string>
+</resources>

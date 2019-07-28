@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/signIn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Sign In "/>
+
+    <item
+        android:id="@+id/signUp"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Sign Up"/>
+
+    <item
+        android:id="@+id/contactInfo"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Contact Info"/>
+
+    <item
+        android:id="@+id/aboutUs"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="About Us"/>
+
+</menu>
