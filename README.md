@@ -20,3 +20,5 @@ An online learning platform for all kinds of people
  *
  * 1. Hamdan Kaiser
  * 2. Monim Kaiser
+ 
+ This project is under [MIT LICENSE](LICENSE.txt)
